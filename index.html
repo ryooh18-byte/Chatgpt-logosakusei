@@ -166,6 +166,8 @@
     .sample-grid a:focus-visible{outline:3px solid #1a73e8;outline-offset:3px;border-radius:10px}
     .sample-grid .illustration{margin:0;border-radius:10px;box-shadow:0 4px 12px rgba(61,55,45,.1)}
     .hero-hook{margin:0 0 14px;font-family:var(--serif);font-weight:700;font-size:clamp(1.2rem,5.8vw,1.9rem);line-height:1.6;color:var(--terra);letter-spacing:.02em}
+    .overview .section-head .eyebrow{font-size:1.2rem;letter-spacing:.12em}
+    .overview .lead-strong,.overview>.wrap>p{text-align:left}
     .overview .lead-strong{color:var(--ink);font-weight:700;font-size:1.05rem}
     .overview .check-list{margin-bottom:0}
     .overview .note{max-width:640px;margin:26px auto 0;text-align:left}
@@ -176,6 +178,8 @@
     .num-list .sub li{position:relative;padding-left:1.1em}
     .num-list .sub li:before{content:"・";position:absolute;left:0}
     .num-list a{color:var(--sage-deep);word-break:break-all}
+    .num-list>li{min-width:0}
+    .link-button{max-width:100%}
     .link-wrap{margin:12px 0 2px}
     .link-button{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:10px 22px;border-radius:999px;background:#fffaf5;border:2px solid var(--sage-deep);color:var(--sage-deep)!important;font-weight:700;text-decoration:none;word-break:normal!important;line-height:1.5;text-align:center}
     .link-button:after{content:"↗";margin-left:6px;font-size:.85em}
@@ -260,7 +264,7 @@ AIで副収入を得るための方法を、
           <p class="eyebrow">このガイドについて</p>
         </div>
         <p class="lead-strong">実は、リールの中で紹介していたクラウドワークスより、今はランサーズの方が、AIを使ってよいと書かれたロゴ作成の案件が多いんです！<br>ここでは、ChatGPTを使ってロゴを作成し、それをコンペに応募して、収入を得る方法をお伝えします。</p>
-        <p>会社やお店のロゴを募集する<span class="nw">「コンペ」</span>があります。<br>ロゴを送って応募することを、ランサーズでは<span class="nw">「提案」</span>と言います。<br>選ばれると、報酬がもらえます。</p>
+        <p>会社やお店のロゴを募集する<br><span class="nw">「コンペ」</span>があります。<br>ロゴを送って応募することを、ランサーズでは<span class="nw">「提案」</span>と言います。<br>選ばれると、報酬がもらえます。</p>
         <ul class="check-list">
           <li>絵が描けなくても、デザインの経験がなくても大丈夫</li>
           <li>依頼内容を貼ると、ロゴ3案と提案文ができる指示文つき</li>
@@ -314,9 +318,9 @@ AIで副収入を得るための方法を、
             </li>
             <li>気になるコンペを開いて、<span class="nw">「募集詳細」</span>の次の4つを見ます。
               <ul class="sub">
-                <li><b>生成AI使用可否</b>：<span class="nw">「納品物の制作に生成AIの使用がOK」</span>となっています。</li>
-                <li><b>補足説明</b>：追記も読みます。<span class="nw">「AIで出したままの提案は対象外」</span>などとあれば、見送ります。</li>
-                <li><b>納品ファイル</b>：選ばれたときに渡す形式です。<span class="nw">「イラストレーター形式（.ai）」</span>があると、有料のソフトが必要です（STEP 5）。</li>
+                <li><b>生成AI使用可否</b>：「納品物の制作に生成AIの使用がOK」となっています。</li>
+                <li><b>補足説明</b>：追記も読みます。「AIで出したままの提案は対象外」などとあれば、見送ります。</li>
+                <li><b>納品ファイル</b>：選ばれたときに渡す形式です。「イラストレーター形式（.ai）」があると、有料のソフトが必要です（STEP 5）。</li>
                 <li><b>商標登録予定</b>：はじめは、<span class="nw">「商標登録予定なし」</span>のコンペを選びます。</li>
               </ul>
             </li>
@@ -325,7 +329,7 @@ AIで副収入を得るための方法を、
           <div class="note">
             <p>※コンペが並ばないときは、日を変えて見ます。</p>
             <p>※<span class="nw">「生成AI」</span>は、ChatGPTのように、文章や画像を作るAIのことです。<span class="nw">「商標登録」</span>は、ロゴを、その会社だけのものとして国に登録することです。</p>
-            <p>※依頼内容が<span class="nw">「添付ファイルをご参照ください」</span>だけのコンペは、はじめは見送ります。STEP 3で、文章をコピーして使うためです。</p>
+            <p>※依頼内容が「添付ファイルをご参照ください」だけのコンペは、はじめは見送ります。STEP 3で、文章をコピーして使うためです。</p>
             <p>※自分で探すときは、<span class="nw">「仕事を探す」</span>→<span class="nw">「ロゴ作成・デザイン」</span>で、<span class="nw">「コンペ」</span>と、生成AI使用可否の<span class="nw">「許可する」</span>にチェックを入れます。</p>
           </div>
         </article>
@@ -435,7 +439,7 @@ AIで副収入を得るための方法を、
             <li>コンペのページの<span class="nw">「提案する」</span>を押します。</li>
             <li><span class="nw">「提案文」</span>の欄に、ChatGPTが書いた提案文を貼ります。はじめに、あいさつを一言足します。</li>
             <li><span class="nw">「添付ファイル」</span>の<span class="nw">「ファイルを選択」</span>を押して、保存したロゴの画像を入れます。</li>
-            <li><span class="nw">「生成AIの使用について」</span>で、<span class="nw">「生成AIを使用している」</span>で始まる、2つ目を選びます。</li>
+            <li>「生成AIの使用について」で、「生成AIを使用している」で始まる、2つ目を選びます。</li>
             <li>内容を確かめて、提案します。</li>
             <li>残りの案も、<b>1案ずつ、新しく提案します。</b></li>
           </ol>
