@@ -161,6 +161,9 @@
 
     /* ===== このLP専用の部品 ===== */
     .nw{white-space:nowrap}
+    .sample-grid{margin:18px 0 22px}
+    .sample-grid .illustration{margin:0}
+    @media(min-width:760px){.sample-grid{grid-template-columns:repeat(3,1fr)}}
     .hero-hook{margin:0 0 14px;font-family:var(--serif);font-weight:700;font-size:clamp(1.2rem,5.8vw,1.9rem);line-height:1.6;color:var(--terra);letter-spacing:.02em}
     .overview .lead-strong{color:var(--ink);font-weight:700;font-size:1.05rem}
     .overview .check-list{margin-bottom:0}
@@ -331,8 +334,12 @@ AIで副収入を得るための方法を、
           <span class="step-label">STEP 3</span>
           <h3>ChatGPTで、<br>ロゴを3案作る</h3>
           <p>指示文に、依頼内容と<span class="nw">「希望イメージ」</span>の画像を送ると、ロゴが3案出てきます。</p>
-          <img class="illustration" src="./assets/sample-logo.webp" alt="ChatGPTで作ったロゴの例。歯の形の中に、船と波。「橋本歯科クリニック」と書かれている">
-          <p class="illustration-caption">ChatGPTで作ったロゴの例です。<br>医院の名前は、<span class="nw">架空のものです。</span></p>
+          <div class="illustration-grid sample-grid">
+            <img class="illustration" src="./assets/sample-logo-1.webp" alt="ChatGPTで作ったロゴの例1。歯の形の中に、船と波。「橋本歯科クリニック」と書かれている">
+            <img class="illustration" src="./assets/sample-logo-2.webp" alt="ChatGPTで作ったロゴの例2。歯の形の中に、船と波。「橋本歯科クリニック」と書かれている">
+            <img class="illustration" src="./assets/sample-logo-3.webp" alt="ChatGPTで作ったロゴの例3。歯の形の中に、船と波。「橋本歯科クリニック」と書かれている">
+          </div>
+          <p class="illustration-caption">こうして、ロゴが3つ出てきます（ChatGPTで作った例）。<br>医院の名前は、<span class="nw">架空のものです。</span></p>
           <ol class="num-list">
             <li>コンペのページの<span class="nw">「募集詳細」</span>を、<span class="nw">「ロゴ表記名称」</span>から最後まで（追記も）コピーします。</li>
             <li>ChatGPTで新しいチャットを開き、下の指示文をコピーして貼ります。<b>まだ送信しません。</b></li>
