@@ -5,7 +5,7 @@ ChatGPTでロゴの案を作り、ランサーズのコンペに提案して、�
 
 `index.html` 1ファイル（CSS・JS内蔵）＋ `assets/` で完結します。
 
-> フォルダ・リポジトリ名は `logo-crowdworks-lp` です。中身はランサーズ中心です。
+> ローカルのフォルダ名は `logo-crowdworks-lp`、GitHubのリポジトリ名は `Chatgpt-logosakusei` です。中身はランサーズ中心です。
 
 ## 内容
 
