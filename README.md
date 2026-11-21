@@ -1,6 +1,6 @@
 # logo-crowdworks-lp
 
-ChatGPTでロゴの案を作り、ランサーズのコンペに提案して、納品するまでを解説する、Instagram特典配布LPです。
+「くみ式 ChatGPTで作る、ロゴデザイン副業ガイド」。ChatGPTでロゴの案を作り、ランサーズのコンペに提案して、納品するまでを解説する、Instagram特典配布LPです。
 [lp-template](https://github.com/ryooh18-byte/lp-template) の最新版をもとに作成しています（固定部分はテンプレートのまま）。
 
 `index.html` 1ファイル（CSS・JS内蔵）＋ `assets/` で完結します。
@@ -26,6 +26,7 @@ ChatGPTでロゴの案を作り、ランサーズのコンペに提案して、�
 - OpenAI 利用規約（出力は使う人のもの。ほかの人にも似たものが出ることがある）：https://openai.com/ja-JP/policies/row-terms-of-use/
 - Illustratorの体験版・画像のベクター変換：https://www.adobe.com/jp/products/illustrator/free-trial-download.html 、 https://helpx.adobe.com/jp/illustrator/desktop/manage-objects/traces-mockups-symbols/trace-images-to-convert-raster-into-vector-artwork.html
 - 指示文は、ログインしたChatGPTで3回試した（画像3枚・文字・目盛りの読み取り）
+- ChatGPTのアイコン：OpenAIのデザインガイドライン https://openai.com/ja-JP/brand/ に従う（OpenAIのサービスに直接関係する場所だけ・形を変えない・自分の名前より目立たせない・推薦を示さない）。出所は chatgpt.com のアイコン（SVG）。暗い画面の設定でも見えるよう、色だけ黒に固定（形・比率は元のまま）。ページの注意書きに「ChatGPTは、OpenAIの商標です」と入れている
 
 ## 注意
 
